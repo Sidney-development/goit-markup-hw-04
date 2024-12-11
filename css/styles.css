@@ -53,7 +53,11 @@ ul, ol{
    
 .title{
 background: #2e2f42;
+background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/people-office.jpg);
+background-repeat: no-repeat;
+background-size: cover;
 padding: 188px 0;
+
 }
 
 .title-text{
@@ -137,7 +141,14 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
 margin-right: 860px;
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: row;
+gap: 120px;
+padding: 24px 0;
 }
+
 
 .logo{
 font-family: "Raleway", sans-serif;
@@ -225,6 +236,10 @@ padding: 24px 0;
 padding: 24px 0;
 }
 
+.top-nav-li .link:hover{
+color: #404bbf;
+}
+
 .info-list{
 display: flex;
 align-items: flex-start;
@@ -269,6 +284,12 @@ row-gap: 48px;
 
 .portfolio-set-item{
 width: calc((100% - 48px) / 3);
+}
+
+.portfolio-set-item:hover{
+box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+        0 1px 1px 0 rgba(46, 47, 66, 0.16),
+        0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .container{
